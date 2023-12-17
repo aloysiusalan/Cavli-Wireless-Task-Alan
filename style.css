@@ -1,0 +1,110 @@
+
+.products{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 24%;
+    padding-right: 24%;
+}
+.product-card {
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 3%;
+    padding-top: 20px;
+    float: left;
+}
+.product-card img{
+    width: 80px;
+    height: 80px;
+    padding-top: 10px;
+
+}
+.product-name p{
+    color: green;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:140%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.product-name-sub p{
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    border-width:thin; 
+    border-radius: 20px 20px 20px 20px;
+    border-style:solid;
+    border-color:blue;
+    display:inline;
+    padding-left: 8px;
+    padding-right: 8px;
+    
+}
+ .cart{
+    background-color: blue;
+    color: white;
+    border: 0cap;height: 30px;   
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    
+ }
+ .cart:hover{
+    background-color:aqua;
+ }
+ .popup{
+    position: absolute;
+    top: -50%;
+    visibility: hidden;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+    width:60%;
+    height:100%;
+    background-color:whitesmoke;
+    padding-top: 5%;
+    border-radius: 1%;
+ }
+ .popup-active{
+    visibility: visible;
+    top: 2%;
+ }
+ .filter-container{
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+ }
+ .CancelButton{
+    background-color: ghostwhite;
+    height: 30px; 
+
+ }
+ .Cancel{
+    position:absolute;
+    display:flex;
+    left:80%;
+    right:20%;
+    bottom:5%;
+    top:80%;
+ }
+
+ .addtocart{
+    position:absolute;
+    display:flex;
+    left:87%;
+    height: 30px;
+    top:80%;
+ }
+ #add-bottom{
+    background-color: blue;
+    color: white;
+ }
+ 
+ 
